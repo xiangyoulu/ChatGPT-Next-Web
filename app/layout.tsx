@@ -35,6 +35,7 @@ export default function RootLayout({
         <meta name="version" content={buildConfig.commitId} />
         <link rel="manifest" href="/site.webmanifest"></link>
         <script src="/serviceWorkerRegister.js" defer></script>
+        <script src="/baidu_tongji.js" defer></script>
       </head>
       <body>{children}</body>
     </html>
